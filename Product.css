@@ -1,0 +1,49 @@
+/* #pro1{
+    overflow: hidden;
+    height:100%;
+    width:100%;
+    
+
+}
+.prohead{
+    font-style: italic;
+    color:rgb(12, 12, 11);
+    font-weight:600;
+    
+    padding-left:28%;
+}
+.depsc{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    padding-left:2px;
+    text-shadow: 2px 3px 4px black;;
+}
+.firstcard:hover{
+     box-shadow: 12px 12px 20px red;;
+}
+.secondcard:hover{
+    box-shadow: 12px 12px 12px red;;
+}
+.thirdcard:hover{
+    box-shadow: 12px 12px 12px red;;
+}
+.pardiv{
+    display:flex;
+    justify-content:space-around;
+  
+   flex-direction: row;
+
+
+}
+.firstcard{
+    border:2px solid red;
+}
+.prodesc{
+    width:50%;
+    border:2px solid red;
+}
+@media (max-width:800px){
+    .pardiv{
+        flex-direction: column;
+        align-items: center;
+    }
+} */

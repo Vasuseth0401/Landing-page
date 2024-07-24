@@ -1,0 +1,127 @@
+#two{
+    height:100%;
+    width:100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+   
+}
+.head{
+    padding-left:46%;
+    
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+.head10{
+    margin-right: 69px;
+}
+.image{
+    height:20vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+    
+
+}
+.image1{
+    object-fit: cover;
+    height: 150px;
+    width:200px;
+    overflow: hidden;
+
+}
+.image2{
+    height:100px;
+    width:100px;
+    object-fit: cover;
+}
+.image3{
+    height:100px;
+    width:100px;
+    object-fit: cover;
+}
+.image4{
+    height:100px;
+    width:100px;
+    object-fit: cover;
+}
+.image6{
+    height:100px;
+    width:150px;
+    object-fit: cover;
+
+}
+.image7{
+    height:100px;
+    width:150px;
+    object-fit: cover;
+}
+.image {
+    
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.image img{
+    padding-left:20px;
+}
+.img10{
+    overflow: hidden;
+    width:100vw;
+    height: 50px;
+   padding-left:37%;
+  font-weight: 500;
+}
+.microsoft{
+    /* border:2px solid red; */
+    height:90px;
+    width:250px;
+}
+.infosys{
+    /* border:2px solid yellow ;*/
+    height:100px;
+   
+}
+.Netflix{
+    /* border:2px solid green; */
+    height:100px;
+    padding-left: 22px;
+}
+.TCS,.Wipro{
+    /* border:2px solid violet; */
+    height:100px;
+}
+.image img{
+    margin-left :60px;
+    margin-right: 60px;;
+}
+@media (max-width:800px) {
+    .image{
+       justify-content: space-around;
+        margin-top:20px;
+        height:100vh;
+    }
+    
+}
+@media (max-width:500px){
+    .head{
+        font-size: 20px;
+        font-weight: 500;
+        padding-right:25px;
+        
+    }
+    .descofhead{
+        font-weight: 100;
+        padding-right:2px;
+        padding-left:1px;
+        position: relative;
+        right:15%;
+    }
+   
+
+}
+.descofhead{
+    padding-left:20px
+}

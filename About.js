@@ -17,7 +17,7 @@ function About() {
         <p className='descofhead  text-black drop-shadow-[10px_10px_4px_rgba(0,0,0,0.25)]'>We have been working with some fortune 100+ clients</p>
         </div>
         <div className='image'>
-          <img src={img01} alt='img01' className='microsoft border-2 border-solid border-red-400 '/>
+          <img src={img01} alt='img01' className='microsoft'/>
           <img src={img02} alt='img02' className='infosys'/>
           <img src={img03} alt='img03' className='Netflix'/>
           <img src={img04} alt='img04' className='TCS'/>

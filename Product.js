@@ -8,7 +8,8 @@ import './Product.css'
 function Product() {
   return (
      <section id='product'>
-      <h2 className='text-4xl text-grey-800 font-semibold mb-2 text-center'>Products</h2>
+      <h2 className='text-4xl text-grey-800 font-semibold mb-2 text-center  text-black drop-shadow-[10px_10px_4px_rgba(0,0,0,0.25)]'>Products Section</h2>
+    <p className='text-grey-800 font-semibold mb-2 text-center  text-black drop-shadow-[10px_10px_4px_rgba(0,0,0,0.25)]'>Products Of The Amazon Company</p>
       <div className='flex flex-wrap justify-around'>
         <Card className='max-w-60 md:w-80 my-20 card90' horizontal>
           <img src={pic50} alt='image12' className='w-80  md:ml-0'/>
